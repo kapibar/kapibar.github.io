@@ -1,0 +1,23 @@
+{
+  "name": "site-1",
+  "version": "1.0.0",
+  "description": "template",
+  "main": "index.js",
+  "scripts": {
+    "test": "slavik"
+  },
+  "author": "slavik",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglifyjs": "^0.6.2"
+  },
+  "dependencies": {
+    "npm-check-updates": "^2.14.2"
+  }
+}
