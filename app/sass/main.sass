@@ -1,1 +1,21 @@
-@import "vars"
+@import "_abstracts/vars"
+@import "_mixins/different-mixin"
+@import "_base/fonts"
+// @import "libs"
+@import "_components/btn"
+@import "_pages/prices"
+
+%message-shared
+	border: 3px solid black
+	padding: 10px
+	color: #333
+
+.table-for-mail 
+	caption
+		caption-side: top
+		text-align: center
+	td
+		border: none
+
+
+@import "_base/media"

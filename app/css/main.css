@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "raleway-ex";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+  src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "raleway-ex";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/RalewayBold/RalewayBold.eot");
+  src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayBold/RalewayBold.woff") format("woff"), url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "raleway-ex";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/RalewayRegularItalic/RalewayRegularItalic.eot");
+  src: url("../fonts/RalewayRegularItalic/RalewayRegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayRegularItalic/RalewayRegularItalic.woff") format("woff"), url("../fonts/RalewayRegularItalic/RalewayRegularItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "firasans-ex";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/FiraSansRegular/FiraSansRegular.eot");
+  src: url("../fonts/FiraSansRegular/FiraSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/FiraSansRegular/FiraSansRegular.woff") format("woff"), url("../fonts/FiraSansRegular/FiraSansRegular.ttf") format("truetype");
+}
+
+.button {
+  display: inline-block;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  background-color: lightgreen;
+  padding: 15px 45px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  border-radius: 2px;
+  text-align: center;
+  position: relative;
+  outline: none;
+  transition: background-color .1s ease;
+}
+
+.button::after {
+  transition: background-color .2s ease;
+  position: absolute;
+  content: '';
+  height: 45px;
+  bottom: 0;
+  wight: 100%;
+  background-color: #116e11;
+  opasity: .18;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  left: 0;
+}
+
+.button:focus, .button:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #a6f1a6;
+}
+
+.button:hover::after {
+  opacity: .22;
+}
+
+.button:active {
+  background-color: #116e11;
+}
+
+.button:active::after {
+  opacity: .32;
+}
+
+.price-table th, td {
+  padding: 5px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.price-table caption {
+  text-align: center;
+  caption-side: top;
+  color: #345480;
+  font-size: 25px;
+}
+
+.price-table th {
+  background-color: lightgreen;
+}
+
+.table-for-mail caption {
+  caption-side: top;
+  text-align: center;
+}
+
+.table-for-mail td {
+  border: none;
+}
