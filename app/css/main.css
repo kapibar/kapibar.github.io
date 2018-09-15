@@ -99,12 +99,3 @@
 .price-table th {
   background-color: lightgreen;
 }
-
-.table-for-mail caption {
-  caption-side: top;
-  text-align: center;
-}
-
-.table-for-mail td {
-  border: none;
-}
