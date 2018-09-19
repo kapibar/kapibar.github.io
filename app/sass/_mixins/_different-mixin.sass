@@ -3,3 +3,12 @@
 	-moz-border-radius: $radius
 	-ms-border-radius: $radius
 	border-radius: $radius
+
+@mixin clearfix()
+	&::after
+		visibility: hidden
+		display: block
+		font-size: 0
+		content: " "
+		clear: both
+		height: 0

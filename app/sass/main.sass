@@ -15,32 +15,31 @@ body
 	font-size: 30px
 
 header
-	background: #3d3c66
-	height: 200px
-	margin-bottom: 10px
-
-.row
-	&:after 
-		visibility: hidden
-		display: block
-		font-size: 0
-		content: " "
-		clear: both
-		height: 0
+	.inner-header
+		background: #3d3c66
+		height: 200px
+	
+main
+	margin: 10px 0  
+	@include clearfix
 
 section
-	background: #3d3c66
-	min-height: 500px
+	.inner-content
+		background: #3d3c66
+		min-height: 500px
 	width: 70%
 	float: left
 
 aside
-	background: #3d3c66;
+	.inner-aside
+		background: #3d3c66;
+		min-height: 500px
 	width: 30%
 	float: left
 
 footer
-
+	.inner-footer
+		background: #3d3c66
 
 
 @import "_base/media"
