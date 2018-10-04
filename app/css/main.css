@@ -134,8 +134,9 @@ section .inner-content {
 }
 
 aside {
-  width: 30%;
+  width: 15%;
   float: left;
+  padding-left: 10px;
 }
 
 aside .inner-aside {
